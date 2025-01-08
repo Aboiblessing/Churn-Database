@@ -20,7 +20,7 @@ The data contains information on 10,000 Canadian bank customers who left or rema
 * EstimatedSalary: This field contains data about the client's earnings. 
 * Churned: This variable tells us whether or not the consumer left (churned). The variable is binary, with 0 denoting "No" (the consumer stayed) and 1 denoting "Yes" (the customer left or "churned").
 
-  Data Source :( https://docs.google.com/spreadsheets/d/1uaklnnc7yeQFgHBR4cP9w91QJcUypdRZWud-MMk8FQM/edit?usp=classroom_web&authuser=0)
+  Data Source :[Data Dictionary]( https://docs.google.com/spreadsheets/d/1uaklnnc7yeQFgHBR4cP9w91QJcUypdRZWud-MMk8FQM/edit?usp=classroom_web&authuser=0)
   # Objectives
    Addressing customer churn is critical for maintaining a stable customer base and sustaining the bank's financial health. This analysis will empower the bank to proactively implement retention strategies, enhancing customer satisfaction and loyalty.
    As a data analyst at Datafied Technologies, my task is to leverage Power BI for exploratory data analysis in order to provide valuable insight as to the factors influencing customer churn based on various demographic and banking behavior attributes,
@@ -36,6 +36,22 @@ The data contains information on 10,000 Canadian bank customers who left or rema
     * Churn Rate Distribution
     * Churn Status
     * Demographic Distribution Analysis
+ # Data Modelling And Relationship
+ New tables for identified dimensions were created and additional features that will help generate insights and add robustness to the analysis were added:
+* Weather Dimension
+* Time Dimension
+* Temperature
+* Carsharing
+The data model was designed using the Star Schema where the different dimensions were connected to the Facts table in a one-to-many relationship.
+ ![ER Diagram](https://github.com/user-attachments/assets/32b200ed-b8eb-4040-8b9a-82d0a9ced5a3)
+# Data Visualization
+Different charts were used to represent the metrics and insights.A drill-down was used to to make the dash board more interactive and also provide detailed information
+![Dash Board](https://github.com/user-attachments/assets/6f25fd75-f1c0-4056-a4f5-9593b1ce404c)
+# Insights
+The following insights were generated from the dashboard metrics:
+* 
+
+
 
 
 
