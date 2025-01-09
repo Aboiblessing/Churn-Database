@@ -37,11 +37,7 @@ The data contains information on 10,000 Canadian bank customers who left or rema
     * Churn Status
     * Demographic Distribution Analysis
  # Data Modelling And Relationship
- New tables for identified dimensions were created and additional features that will help generate insights and add robustness to the analysis were added:
-* Weather Dimension
-* Time Dimension
-* Temperature
-* Carsharing
+ New tables for identified dimensions were created and additional features that will help generate insights and add robustness to the analysis were added.
 The data model was designed using the Star Schema where the different dimensions were connected to the Facts table in a one-to-many relationship.
  ![ER Diagram](https://github.com/user-attachments/assets/32b200ed-b8eb-4040-8b9a-82d0a9ced5a3)
 # Data Visualization
@@ -49,7 +45,32 @@ Different charts were used to represent the metrics and insights.A drill-down wa
 ![Dash Board](https://github.com/user-attachments/assets/6f25fd75-f1c0-4056-a4f5-9593b1ce404c)
 # Insights
 The following insights were generated from the dashboard metrics:
-* 
+* 2,307 customers (20.4% of 10,000) have left the bank, resulting in a significant loss of revenue and potential long-term relationships.
+* Out of the customers who churned, those with credit cards churned drastically.
+* Majority of the bank customers are in the high income range,however over half of the customers who churned are high income earners.
+* Most of the bank customers are Adults, however the young adults churned more.
+* The bank had more customers with very good credit score who left the bank.
+* Out of the churned customers, most of them were females.
+# Recommendations
+Below are my recommemndations tailored toward addressing the issues:
+* Develop targeted marketing campaigns and service offerings focused on high-income customers' specific needs and preferences.
+* Regularly solicit feedback from customers and promptly address any concerns or issues to prevent churn.
+* Implement personalized marketing campaigns to target at-risk customers.
+* Offer loyalty programs or rewards to long-term customers.
+* Conduct regular customer feedback surveys to identify areas for improvement.
+* Develop targeted offers, such as premium credit cards or exclusive loan rates, to retain customers with very good credit scores.
+# Deployment And Documentatioin
+Once the dashboard was finalized, it was deployed to Power BI service. The project process and deliverables are documented here on GitHub.
+
+Interact with the final dashboard here:
+[Churn Analysis](https://app.powerbi.com/groups/me/reports/91d25551-f30d-4bae-914d-c66473efcf92?experience=power-bi)
+
+
+
+
+
+
+
 
 
 
